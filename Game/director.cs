@@ -22,9 +22,9 @@ namespace jumper {
                 outputs();
             }
         }
-        /// <sumary>
+        /// <summary>
         /// Gets inputs from user
-        /// </sumary>
+        /// </summary>
         private void inputs() {
         char guess = terminal.getCharacter("Guess a letter [a-z]: ");
             bool isRight = word.isLetter(guess);
