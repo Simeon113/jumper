@@ -26,7 +26,7 @@ namespace jumper {
         /// Gets inputs from user
         /// </summary>
         private void inputs() {
-        char guess = terminal.getCharacter("Guess a letter [a-z]: ");
+            char guess = terminal.getCharacter("Guess a letter [a-z]: ");
             bool isRight = word.isLetter(guess);
             jumper.calculateLife(isRight);
             word.changeDisplay(guess);
